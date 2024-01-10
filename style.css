@@ -1,0 +1,255 @@
+.img3{
+    height: 350px;
+    width: 600px;
+}
+.image2{
+    float: right;
+    margin-bottom: 15%;
+    height: 300px;
+    max-width:550px;
+}
+#header{
+
+    background-color: rgb(6, 176, 255);
+    padding: 2%;
+    margin-bottom: 1%;
+    text-align: justify;
+}
+.headertext{
+    justify-content: baseline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(239, 250, 243);
+}
+.href1{
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 35%;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(242, 247, 252);
+    text-decoration: none;
+    }
+    .href1::after{
+        content:"" ;
+        position: absolute;
+        bottom: -5px;
+        height: 4px;
+        width: 100%;
+        left: 0;
+        background-color: rgb(0, 235, 252);
+        transition: 0.3s;
+        transition-timing-function: ease-in-out;
+        transform: scale(0);
+    }
+    .href1:hover:after{
+        transform: scale(1);
+
+    }
+    .href2{
+        width: max-content;
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+        margin-left: 5%;
+        font-size: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(242, 247, 252);
+        text-decoration: none;
+    }
+        .href2::after{
+            content:"" ;
+            position: absolute;
+            bottom: -5px;
+            height: 4px;
+            width: 100%;
+            left: 0;
+            background-color: rgb(0, 235, 252);
+            transition: 0.3s;
+            transition-timing-function: ease-in-out;
+            transform: scale(0);
+        }
+        .href2:hover:after{
+            transform: scale(1);
+    }
+    .href3{
+        width: max-content;
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+        margin-left: 5%;
+        font-size: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(242, 247, 252);
+        text-decoration: none;
+    }
+    .href3::after{
+        content:"" ;
+        position: absolute;
+        bottom: -5px;
+        height: 4px;
+        width: 100%;
+        left: 0;
+        background-color: rgb(0, 235, 252);
+        transition: 0.3s;
+        transition-timing-function: ease-in-out;
+        transform: scale(0);
+    }
+    .href3:hover:after{
+        transform: scale(1);
+}
+    body{
+        background-color: rgb(0, 14, 212);
+    }
+.Mainheading{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(230, 204, 253);
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.introheading{
+    justify-content: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(230, 204, 253);
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.p1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Understanding{
+    justify-content: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(230, 204, 253);
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.types{
+    justify-content: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(230, 204, 253);
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.p2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ol1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p4{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.GANs{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(230, 204, 253);
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.intro1{
+    justify-content: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(230, 204, 253);
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.p5{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Elaboration{
+    justify-content: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(230, 204, 253);
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.p6{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Applications{
+    justify-content: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(230, 204, 253);
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.p7{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Impact{
+    justify-content: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(230, 204, 253);
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.p8{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.concl{
+    justify-content: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(230, 204, 253);
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.p9{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer {
+    background-color:  rgb(0, 153, 224);
+    color: white;
+    padding: 2%;
+    text-align: center;
+  }
+  
+  .footer-heading {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .copyright {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .logo{
+    width: 80px;
+    height: 80px;
+    float: inline-start;
+    position: relative;
+  }
